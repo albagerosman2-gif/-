@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Ephesis&family=Isometra&family=Jolly+Lodger&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #0162be;
+}
+body {
+  font-family: "Clarity City", sans-serif;
+}
+#home {
+  background-color: #0162be;
+  color: white;
+  height: 100vh;
+}
+ul {
+  font-size: 40px;
+}
+nav > .logo {
+  width: 50px;
+}
+.container {
+  margin: 0 7rem;
+  height: 100%;
+}
+#home > .container > .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70%;
+}
+#home .content img {
+  width: 300px;
+  height: 300px;
+}
+#home > .container > .content > .content-text > h1 {
+  font-size: 3rem;
+  font-weight: 900px;
+  margin-bottom: 10px;
+}
+
+#home > .container > .content > .content-text > h1 > span {
+  font-size: 70px;
+}
+
+#home > .container > .content > .content-text > P {
+  margin-bottom: 30px;
+  font-weight: 300px;
+  width: 60%;
+}
+.btn {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 10px;
+  color: black;
+}
+.btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid yellow;
+}
+#home > .container > .content > .soical {
+  margin-left: 60px;
+}
+i {
+  font-size: 30px;
+  margin: 10px 0;
+  color: white;
+}
+.pepsi-type {
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+
+li {
+  font-size: 1rem;
+  display: inline-block;
+
+  justify-content: space-around;
+}
+ul {
+  float: right;
+}
